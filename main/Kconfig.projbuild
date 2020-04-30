@@ -1,0 +1,45 @@
+menu "Senses Demo Configuration"
+
+    config ESP_WIFI_SSID
+        string "WiFi SSID"
+        default "myssid"
+        help
+            SSID (network name) for the example to connect to.
+
+    config ESP_WIFI_PASSWORD
+        string "WiFi Password"
+        default "mypassword"
+        help
+            WiFi password (WPA or WPA2) for the example to use.
+
+    config ESP_MAXIMUM_RETRY
+        int "Maximum retry"
+        default 5
+        help
+            Set the Maximum retry to avoid station reconnecting to the AP unlimited when the AP is really inexistent.
+
+    config SENSES_ID
+        string "Senses User ID"
+        default "None"
+        help
+            An ID number of your Senses services.
+
+    config SENSES_KEY
+        string "Senses Device Key"
+        default "None"
+        help
+            A target key of your Senses device.
+
+    config SENSES_SLOT
+        int "Senses Widget slot"
+        default 1
+        help
+            A widget slot number.
+
+    config SENSES_DELAY
+        int "Update delay"
+        default 5000
+        help
+            A time delay in between package.
+
+endmenu
