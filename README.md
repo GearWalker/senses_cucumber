@@ -24,6 +24,10 @@ This demo uses kconfiglib which is a Python-based extension to the Kconfig syste
 
 - `Update delay` A time delay in between package.
 
+## Instruction (Step-by-step) video
+
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/Pmkq4v_dRBA/0.jpg)](https://youtu.be/Pmkq4v_dRBA)
+
 ## Links
 
 - [SensesIoT](https://www.sensesiot.com/)
